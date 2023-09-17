@@ -46,3 +46,6 @@ class Birds(Animals):
     def __int__(self, typeOfAn, area, typeFeed, numberofPaws, numberOfWings):
         super().__init__(typeOfAn, area, typeFeed, numberofPaws)
         self.numberOfWings = numberOfWings
+
+    def hello_bird(self):
+        return '!!!I am bird!!! I can fly'
