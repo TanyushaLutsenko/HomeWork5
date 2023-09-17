@@ -41,3 +41,8 @@ elephant = Mammals('elephant', 'Africa', 'grass', 4, 'jungles')
 print(elephant.hello())
 print(cat._numberOfPows)
 print(cat.__dict__)
+
+class Birds(Animals):
+    def __int__(self, typeOfAn, area, typeFeed, numberofPaws, numberOfWings):
+        super().__init__(typeOfAn, area, typeFeed, numberofPaws)
+        self.numberOfWings = numberOfWings
